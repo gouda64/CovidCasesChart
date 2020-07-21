@@ -7,7 +7,14 @@ plt.title('Coronavirus Cases in Various States')
 
 plt.xlabel('States')
 plt.ylabel('Coronavirus Cases by Thousands')
-plt.bar(states, positive, color = 'lightblue', label = 'Cases by the Thousand')
 plt.legend(facecolor = 'lightgreen')
+
+plt.bar(states, positive, color = 'lightblue', label = 'Cases by the Thousand')
+
+#plt.barh(states, positive, color = 'lightblue', label = 'Cases by the Thousand')
+
+#plt.plot(states, positive)
+
+#plt.pie(positive)
 
 plt.show()
