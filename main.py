@@ -1,3 +1,4 @@
+import numpy as np
 import matplotlib.pyplot as plt
 
 states = ['NY', 'CA', 'VA', 'TX', 'OH', 'MD', 'DC']
